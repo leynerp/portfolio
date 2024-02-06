@@ -1,19 +1,18 @@
 'use client'
-import { languageEnabled } from '@/constans';
-import { Language } from '@/types';
+import { languageEnabled, Language } from '@/config';
 import Image from 'next/image';
 import { ChangeEvent, useState } from 'react';
 import { useRouter } from 'next/navigation'
 
 const LanguageSwitcher = () => {
-  const [language, setLanguague] = useState<Language>({ name: 'Español', abr: 'es', img: '/flag-es.svg' });
+  const [language, setLanguage] = useState<Language>({ name: 'Español', abr: 'es', img: '/flag-es.svg' });
   const router = useRouter()
 
   const handlerChange = (selectValue:ChangeEvent<HTMLSelectElement>) => {
     // const selectValue=(value.target.value) as string;
-    const lang:Language = languageEnabled.find((itemLang) => itemLang.abr === selectValue.target.value);
-    setLanguague(lang)
-    router.push('/es')
+    const lang = languageEnabled.find((itemLang) => itemLang.abr === selectValue.target.value) ?? languageEnabled[0];
+    setLanguage(lang)
+    router.push(lang.abr)
   };
   return (
     <div className='mr-5 flex justify-end gap-x-2'>

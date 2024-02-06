@@ -3,8 +3,9 @@ import type { NextRequest } from 'next/server';
 import { match } from '@formatjs/intl-localematcher';
 
 import Negotiator from 'negotiator';
-const locales = ['en', 'es'];
-const defaultLocale = 'es';
+import { i18n } from './i18n/i18n';
+const locales = i18n.locales;
+const defaultLocale = i18n.defaultLocale;
 function getLanguage (request: Request): string {
   const headers = new Headers(request.headers);
   const acceptLanguage = headers.get('accept-language');

@@ -1,6 +1,6 @@
 'use client'
 import LanguageSwitcher from './LanguageSwitcher';
-import { NavLinks } from '@/constans';
+import { NavLinks } from '@/config';
 import { i18n } from '@/i18n/i18n';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
