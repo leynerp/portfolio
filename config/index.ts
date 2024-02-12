@@ -94,22 +94,32 @@ export const Socials = [
 export const NavLinks = [
   {
     icon: HomeIcon,
-    link: '/'
+    link: '/',
+    ref: 'home',
+    size: { width: 20, height: 20 }
   },
   {
     icon: ExperienceIcon,
-    link: '/experience'
+    link: '/#experience',
+    ref: 'experience',
+    size: { width: 25, height: 25 }
   },
   {
     icon: ProjectIcon,
-    link: '/my-projects'
+    link: '/my-projects',
+    ref: 'projects',
+    size: { width: 20, height: 20 }
   },
   {
     icon: AboutMe,
-    link: '/about-me'
+    link: '/about-me',
+    ref: 'about-me',
+    size: { width: 20, height: 20 }
   }, {
     icon: Skill,
-    link: '/skill'
+    link: '/skill',
+    ref: 'skill',
+    size: { width: 25, height: 25 }
   }
 ]
 

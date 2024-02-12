@@ -3,13 +3,15 @@ import { languageEnabled, Language } from '@/config';
 import Image from 'next/image';
 import { ChangeEvent, useState } from 'react';
 import { useRouter } from 'next/navigation'
+import { Locale } from '@/i18n/i18n';
 
-const LanguageSwitcher = () => {
-  const [language, setLanguage] = useState<Language>({ name: 'Español', abr: 'es', img: '/flag-es.svg' });
+const LanguageSwitcher = ({ lang }:{lang:Locale}) => {
+  const [language, setLanguage] = useState<Language>(() => {
+    return languageEnabled.find((itemLang) => itemLang.abr === lang) ?? languageEnabled[0]
+  });
   const router = useRouter()
 
   const handlerChange = (selectValue:ChangeEvent<HTMLSelectElement>) => {
-    // const selectValue=(value.target.value) as string;
     const lang = languageEnabled.find((itemLang) => itemLang.abr === selectValue.target.value) ?? languageEnabled[0];
     setLanguage(lang)
     router.push(lang.abr)

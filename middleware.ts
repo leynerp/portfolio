@@ -19,10 +19,9 @@ function getLanguage (request: Request): string {
 export function middleware (request: NextRequest) {
   let response;
   const pathname = request.nextUrl.pathname;
-  console.log(request.url)
   const pathLocale = locales.find((locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`);
   if (pathLocale) {
-    response = NextResponse.rewrite(new URL(`/${pathLocale}${pathname}`, request.url));
+    response = NextResponse.rewrite(new URL(pathname, request.url));
   } else {
     const isFirstVisit = !request.cookies.has('NEXT_LOCALE');
     const locale = isFirstVisit ? getLanguage(request) : request.cookies.get('NEXT_LOCALE');

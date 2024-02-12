@@ -1,9 +1,9 @@
-export const HomeIcon = () => {
+export const HomeIcon = (size:any) => {
   return (
     <svg
       className=' fill-white font-bold'
-      width={20}
-      height={20}
+      width={size.width ?? 20}
+      height={size.height ?? 20}
       viewBox='0 0 122.88 114.45'
     >
       <path
@@ -28,12 +28,12 @@ export const HomeIcon = () => {
     </svg>
   );
 }
-export const ExperienceIcon = () => {
+export const ExperienceIcon = ({ size }:{size:any}) => {
   return (
     <svg
       className=' fill-white font-bold'
-      width={25}
-      height={25}
+      width={size.width ?? 25}
+      height={size.height ?? 25}
       viewBox='0 0 122.88 114.45'
     >
       <path d='M115.7,22.45a3.39,3.39,0,1,0-5.7,3.67,36.16,36.16,0,0,1,2.93,5.49,3.4,3.4,0,0,0,
@@ -59,12 +59,12 @@ export const ExperienceIcon = () => {
   );
 }
 
-export const ProjectIcon = () => {
+export const ProjectIcon = (size:any) => {
   return (
     <svg
       className=' fill-white font-bold'
-      width={20}
-      height={20}
+      width={size.width ?? 20}
+      height={size.height ?? 20}
       viewBox='0 0 122.88 114.45'
     >
       <path d='M67.02,12.99c-0.3,0-0.59-0.05-0.86-0.15c-1.42,0-2.58-1.16-2.58-2.58v-5.1h-25.1v5.1c0,1.34-1.02,2.44-2.33,2.57 c-0.28,
@@ -88,12 +88,12 @@ export const ProjectIcon = () => {
   );
 }
 
-export const AboutMe = () => {
+export const AboutMe = (size:any) => {
   return (
     <svg
       className=' fill-white font-bold'
-      width={20}
-      height={20}
+      width={size.width ?? 20}
+      height={size.height ?? 20}
       viewBox='0 0 122.88 114.45'
     >
       <path d='M21.61,91.11c0.93-0.41,2.01,0.01,2.42,0.94c0.41,0.93-0.01,2.01-0.94,2.42c-1.91,0.84-3.89,1.14-5.92,0.94 c-1.02-0.1-2.04-0.33-3.07-0.68c0.04,
@@ -125,12 +125,12 @@ export const AboutMe = () => {
   );
 }
 
-export const Skill = () => {
+export const Skill = (size:any) => {
   return (
     <svg
       className=' fill-white '
-      width={25}
-      height={25}
+      width={size.width ?? 25}
+      height={size.height ?? 25}
       viewBox='0 0 122.88 114.45'
     >
       <path
@@ -187,6 +187,37 @@ export const Skill = () => {
           5.12 c1.29,2.05,2.64,4.15,4.33,5.68c1.62,1.48,3.58,2.48,6.17,2.48c2.81,0.01,4.87-1.03,6.53-2.59c1.73-1.62,3.1-3.85,4.45-6.07 l3.62-5.97c0.68-1.54,
           0.92-2.57,0.77-3.18c-0.09-0.36-0.49-0.54-1.17-0.57c-0.14-0.01-0.29-0.01-0.44-0.01 c-0.16,0.01-0.33,0.02-0.51,0.03c-0.1,0.01-0.19,0-0.28-0.02c-0.32,0.02-0.66-0.01-0.99-0.05l1.24-4.98 c-9.21,1.45-16.1-5.39-25.84-1.37l0.7,5.96C48.54,62.32,48.17,62.31,47.83,62.26L47.83,62.26L47.83,62.26z M76.29,61.1 c0.89,0.27,1.47,0.84,1.7,1.75c0.26,1.01-0.02,2.45-0.88,4.4l0,0c-0.02,0.04-0.03,0.07-0.05,0.1l-3.67,6.04 c-1.41,2.33-2.85,4.66-4.77,6.46c-1.98,1.86-4.43,3.09-7.77,3.08c-3.12-0.01-5.47-1.2-7.4-2.96c-1.86-1.7-3.29-3.9-4.64-6.05 l-3.22-5.12c-1.18-1.75-1.79-3.36-1.83-4.68c-0.02-0.62,0.09-1.18,0.32-1.68c0.24-0.52,0.61-0.95,1.11-1.29 c0.23-0.16,0.49-0.29,0.78-0.4c-0.21-2.78-0.29-5.76-0.15-8.69c0.07-0.69,0.2-1.39,0.4-2.08c0.82-2.94,2.89-4.28,5.44-5.91 c1.41-0.9,2.95-1.57,4.56-2.03c1.02-0.29-0.87-3.56,0.19-3.67c5.11-0.52,13.38,4.14,16.95,8c1.79,1.93,2.91,3.47,3.15,6.87 L76.29,61.1L76.29,61.1L76.29,61.1z'
       />
+    </svg>
+  );
+}
+
+export const Linkedln = () => {
+  return (
+    <svg
+      fill='#f5f1f1' height='12px' width='15px' version='1.1'
+      viewBox='0 0 24 24'
+    >
+      <path d='M22.2,0H1.8C0.8,0,0,0.8,0,1.8v20.5c0,1,0.8,1.8,1.8,1.8h20.5c1,0,1.8-0.8,1.8-1.8V1.8C24,0.8,23.2,0,22.2,0z M7.2,20.4
+     H3.5V9h3.6V20.4z M5.3,7.4c-1.1,0-2.1-0.9-2.1-2.1s0.9-2.1,2.1-2.1s2.1,0.9,2.1,2.1S6.5,7.4,5.3,7.4z M20.5,20.5h-3.6v-6.3
+     c0-1.8-0.8-2.4-1.8-2.4c-1.1,0-2.1,0.8-2.1,2.5v6.2H9.3V9h3.5v1.6h0c0.3-0.7,1.6-1.9,3.4-1.9c2,0,4.2,1.2,4.2,4.7V20.5z'
+      />
+    </svg>
+  );
+}
+
+export const Email = () => {
+  return (
+    <svg
+      fill='#f5f1f1' height='15px' width='15px' version='1.1'
+      viewBox='0 -2.5 20 20'
+    >
+      <g id='Page-1' stroke='none' strokeWidth='1' fill='none' fillRule='evenodd'>
+        <g id='Dribbble-Light-Preview' transform='translate(-300.000000, -922.000000)' fill='#f5f0f0'>
+          <g id='icons' transform='translate(56.000000, 160.000000)'>
+            <path d='M262,764.291 L254,771.318 L246,764.281 L246,764 L262,764 L262,764.291 Z M246,775 L246,766.945 L254,773.98 L262,766.953 L262,775 L246,775 Z M244,777 L264,777 L264,762 L244,762 L244,777 Z' id='email-[#1573]' />
+          </g>
+        </g>
+      </g>
     </svg>
   );
 }

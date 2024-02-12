@@ -1,0 +1,15 @@
+{
+    "navigation": {
+      "home": "Home",
+      "experience": "Experience",
+      "projects": "Projects",
+      "about-me": "About me",
+      "skill": "Skills"
+    },
+    "homeContent":{
+      "name": " Hola, soy Leyner",
+      "role":" Desarrollador Full Stack ",
+      "experience":"+de 15 años de experiencia en el Desarrollo de Aplicaciones Web. ",
+      "location":" Habana, Cuba"
+    }
+  }
