@@ -7,9 +7,31 @@
       "skill": "Skills"
     },
     "homeContent":{
-      "name": " Hola, soy Leyner",
-      "role":" Desarrollador Full Stack ",
-      "experience":"+de 15 años de experiencia en el Desarrollo de Aplicaciones Web. ",
-      "location":" Habana, Cuba"
-    }
+      "name": " Hi, I'am Leyner",
+      "role":"Full Stack Developer ",
+      "experience":"+ of 15 years of experiencia en el Desarrollo de Aplicaciones Web. ",
+      "location":" Havana, Cuba"
+    },
+    "experience":{
+      "name":"Experience",
+      "data":[
+      {
+        "role":" Desarrollador Full Stack ",
+        "description":"",
+        "company": "XETID",
+        "time":"Actualmente...."
+      },
+      {
+        "role":" Desarrollador Full Stack ",
+        "description":"",
+        "company": "XETID",
+        "time":"Actualmente...."
+      },
+      {
+        "role":" Desarrollador Full Stack ",
+        "description":"",
+        "company": "XETID",
+        "time":"Actualmente...."
+      }]
+    } 
   }

@@ -33,7 +33,7 @@ export default function NavBar ({ lang, dictionary }:{lang: Locale, dictionary:a
         <div className='flex justify-between  px-4 py-3 font-mono text-white '>
           {NavLinks.map((linkValue) => (
             <div key={linkValue.link} className={`flex  hover:scale-110 hover:underline ${pathname === linkValue.link ? 'scale-110 underline' : ''}`}>
-              <Link className='flex cursor-pointer gap-x-2 ' href={linkValue.link}>
+              <Link aria-label={linkValue.ref} className='flex cursor-pointer gap-x-2 ' href={linkValue.link}>
                 <linkValue.icon size={{ width: linkValue.size.width, height: linkValue.size.height }} />
                 <p className='hidden font-bold lg:block'>{dictionary.navigation[linkValue.ref]}</p>
               </Link>

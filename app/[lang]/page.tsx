@@ -1,5 +1,4 @@
 import SocialButtons from '@/components/SocialButtons';
-import { ExperienceIcon } from '@/components/SvgComponent';
 import Experience from '@/components/experience';
 import Home from '@/components/home';
 import { getDictionary } from '@/dictionaries/get-diccionary';
@@ -15,7 +14,7 @@ async function Page ({ params }: { params: { lang: Locale } }) {
         <SocialButtons />
       </section>
       <div className='space-y-24'>
-        <Experience />
+        <Experience dictionary={dictionary} />
 
       </div>
     </main>

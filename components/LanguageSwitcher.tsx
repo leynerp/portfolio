@@ -32,9 +32,9 @@ const LanguageSwitcher = ({ lang }:{lang:Locale}) => {
         className='peer block w-10 cursor-pointer rounded-md border border-[#7042f861] bg-slate-900 text-sm  text-white outline-2 placeholder:text-gray-500'
         defaultValue={language.abr}
       >
-        {languageEnabled.map((leng) => (
-          <option key={leng.abr} value={leng.abr}>
-            {leng.abr}
+        {languageEnabled.map((lang) => (
+          <option key={lang.abr} value={lang.abr}>
+            {lang.abr}
           </option>
         ))}
       </select>
