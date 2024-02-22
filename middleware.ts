@@ -19,6 +19,7 @@ function getLanguage (request: Request): string {
 export function middleware (request: NextRequest) {
   let response;
   const pathname = request.nextUrl.pathname;
+  if (pathname.includes('.svg') || pathname.includes('.png')) return NextResponse.next();
   const pathLocale = locales.find((locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`);
   if (pathLocale) {
     response = NextResponse.rewrite(new URL(pathname, request.url));
@@ -33,5 +34,6 @@ export function middleware (request: NextRequest) {
   return response
 }
 export const config = {
-  matcher: '/((?!api|_next/static|_next/image|img/|favicon.ico|flag-es.svg|flag-en.svg).*)'
+  matcher: '/((?!api|_next/static|_next/image|img/|favicon.ico).*)'
+
 };

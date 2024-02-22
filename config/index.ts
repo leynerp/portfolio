@@ -1,5 +1,5 @@
 import { HomeIcon, ExperienceIcon, ProjectIcon, AboutMe, Skill } from '@/components/SvgComponent';
-import { Locale } from '@/i18n/i18n';
+import { Language } from '@/types.d.ts/types';
 export const SkillData = [
   {
     name: 'Html 5',
@@ -106,7 +106,7 @@ export const NavLinks = [
   },
   {
     icon: ProjectIcon,
-    link: '/my-projects',
+    link: '/#my-projects',
     ref: 'projects',
     size: { width: 20, height: 20 }
   },
@@ -123,11 +123,30 @@ export const NavLinks = [
   }
 ]
 
-export interface Language{
-  name:string,
-  abr:Locale,
-  img:string
-}
+export const ListProjects = [
+  {
+    title: 'Reporte de Operaciones Sospechosas (ROS)',
+    text: '',
+    src: '/Ros.png'
+  },
+  {
+    title: 'Sistema de Gestión de la Urgencia Médica',
+    text: 'bbbb.',
+    src: '/SIGUM.png'
+  },
+  {
+    title: 'Sistema de Reclamaciones de la Plataforma ENZONA',
+    text: 'cccc',
+    src: '/Enzona.png'
+  },
+  {
+    title: 'Sistema de Información al Visitante',
+    text: 'ddd',
+    src: '/Infotur.png'
+  }
+];
+
+
 export const languageEnabled: Language[] = [
   {
     name: 'Español',

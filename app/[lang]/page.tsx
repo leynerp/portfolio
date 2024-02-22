@@ -1,6 +1,7 @@
 import SocialButtons from '@/components/SocialButtons';
 import Experience from '@/components/experience';
 import Home from '@/components/home';
+import Projects from '@/components/Projects';
 import { getDictionary } from '@/dictionaries/get-diccionary';
 import { Locale } from '@/i18n/i18n';
 
@@ -15,7 +16,7 @@ async function Page ({ params }: { params: { lang: Locale } }) {
       </section>
       <div className='space-y-24'>
         <Experience dictionary={dictionary} />
-
+        <Projects dictionary={dictionary} />
       </div>
     </main>
   );

@@ -1,9 +1,8 @@
-import React from 'react'
 import { ExperienceIcon } from './SvgComponent'
 const Experience = ({ dictionary }:{dictionary:any}) => {
   return (
     <section id='experience' className='mx-auto w-full items-start md:max-w-[750px]'>
-      <h1 className=' flex  gap-x-5 text-3xl text-white  '>
+      <h1 className=' flex  gap-x-3 text-3xl text-white  '>
         <ExperienceIcon size={{ width: 40, height: 40 }} /> {dictionary.experience.name}
       </h1>
       <article className='mx-auto mt-16 flex max-w-[750px] flex-col pl-[16px]'>
