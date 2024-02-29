@@ -24,7 +24,7 @@ function StartBackground () {
 }
 
 const StartsCanvas = () => (
-  <div className='fixed inset-0 z-[20] mt-[65px] h-auto w-full'>
+  <div className='fixed inset-0  mt-[65px] h-auto w-full'>
     <Canvas camera={{ position: [0, 0, 1] }}>
       <Suspense fallback={null}>
         <StartBackground />

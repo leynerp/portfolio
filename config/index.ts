@@ -1,6 +1,12 @@
-import { HomeIcon, ExperienceIcon, ProjectIcon, AboutMe, Skill } from '@/components/SvgComponent';
+import {
+  HomeIcon,
+  ExperienceIcon,
+  ProjectIcon,
+  AboutMe,
+  Skill
+} from '@/components/SvgComponent';
 import { Language } from '@/types.d.ts/types';
-export const SkillData = [
+export const skillDataFront = [
   {
     name: 'Html 5',
     Image: '/html.png',
@@ -45,26 +51,17 @@ export const SkillData = [
     height: 80
   },
   {
-    name: 'Next js 13',
-    Image: '/next.png',
-    width: 80,
-    height: 80
-  },
-  {
     name: 'Framer Motion',
     Image: '/framer.png',
     width: 80,
     height: 80
-  },
+  }
+];
+
+export const skillDataBack = [
   {
-    name: 'Stripe Payment',
-    Image: '/stripe.webp',
-    width: 80,
-    height: 80
-  },
-  {
-    name: 'Node js',
-    Image: '/node-js.png',
+    name: 'Next js 13',
+    Image: '/next.png',
     width: 80,
     height: 80
   },
@@ -73,9 +70,14 @@ export const SkillData = [
     Image: '/mongodb.png',
     width: 40,
     height: 40
+  },
+  {
+    name: 'Node js',
+    Image: '/node-js.png',
+    width: 80,
+    height: 80
   }
-]
-
+];
 export const Socials = [
   {
     name: 'Discord',
@@ -89,7 +91,7 @@ export const Socials = [
     name: 'Instagram',
     src: '/discord.svg'
   }
-]
+];
 
 export const NavLinks = [
   {
@@ -106,22 +108,23 @@ export const NavLinks = [
   },
   {
     icon: ProjectIcon,
-    link: '/#my-projects',
+    link: '/#projects',
     ref: 'projects',
     size: { width: 20, height: 20 }
+  },
+  {
+    icon: Skill,
+    link: '/skill',
+    ref: 'skill',
+    size: { width: 25, height: 25 }
   },
   {
     icon: AboutMe,
     link: '/about-me',
     ref: 'about-me',
     size: { width: 20, height: 20 }
-  }, {
-    icon: Skill,
-    link: '/skill',
-    ref: 'skill',
-    size: { width: 25, height: 25 }
   }
-]
+];
 
 export const ListProjects = [
   {
@@ -146,7 +149,6 @@ export const ListProjects = [
   }
 ];
 
-
 export const languageEnabled: Language[] = [
   {
     name: 'Español',
@@ -158,4 +160,4 @@ export const languageEnabled: Language[] = [
     abr: 'en',
     img: '/flag-en.svg'
   }
-]
+];

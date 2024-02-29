@@ -10,10 +10,12 @@
       "name": " Hola, soy Leyner",
       "role":" Desarrollador Full Stack ",
       "experience":"+de 15 años de experiencia en el Desarrollo de Aplicaciones Web. ",
-      "location":" Habana, Cuba"
+      "location":" Habana, Cuba",
+      "contact":" Contácteme",
+      "linkedin":" LinkedIn"
     },
     "experience":{
-      "name":"Experience",
+      "name":"Experiencia",
       "data":[
         {
           "role":" Jefe de proyecto ",
@@ -36,31 +38,31 @@
       ]
     },
     "projects":{
-      "name":"Projects",
-      "know":"Saber más...",
+      "name":"Proyectos",
+      "know":"Ver detalles...",
       "view":"visitar...",
       "data":[
         {
           "title":"Reporte de Operaciones Sospechosas (ROS)",
           "description":"Sistema para el reporte de los ROS, utilizado por el Banco Central de Cuba. Desarrollado desde cero con Vuejs y Laravel.",
           "image": "/Ros.png",
-          "url":false,
+          "url":"",
           "technology":["/vue.png","/laravel.png"]
         },{
           "title":"Sistema de Gestión de la Urgencia Médica",
-          "description":"Plataforma en operación en ciudad de La Habana, procesando diariamente mas de 500 solicitudes de Emergencias. Control del parque de Ambulancias, Agentes, Expedición",
+          "description":"Plataforma en operación en ciudad de La Habana, procesando diariamente mas de 1000 solicitudes de Emergencias. Control del parque de Ambulancias, Agentes, Expedición",
           "image": "/SIGUM.png",
           "url":"https://sigum.xutil.net/",
           "technology":["/angular.png","/material.png","/zend.png","/node-js.png","/mongodb.png"]
         },{
           "title":" Sistema de Reclamaciones de ENZONA",
-          "description":"Procesamiento y análisis de las reclamaciones efectuadas por los clientes sobre las operaciones en la plataforma ENZONA. Más de 6000 reclamaciones atendidas. ",
+          "description":"Procesamiento y análisis de las reclamaciones efectuadas por los clientes sobre las operaciones en la plataforma ENZONA. Más de 10000 reclamaciones atendidas. ",
           "image": "/Enzona.png",
           "url":"https://transparencia.enzona.net/",
           "technology":["/bootstrap.png","/procesmaker.png","/springboot.png"]
         },{
           "title":" Sistema de Información al Visitante",
-          "description":"Plataforma para la búsqueda de información sobre el destino Cuba, con mas de un millón de lugares, hoteles, restaurantes, etc la hacen una poderosa herramienta para el uso de sus clientes",
+          "description":"Plataforma para la búsqueda de información sobre el destino Cuba, con mas de un millón de lugares, hoteles, restaurantes, etc. Poderosa herramienta para el uso de las oficinas de información",
           "image": "/Infotur.png",
           "url":"https://www.infoturcuba.cu/",
           "technology":["/react.png","/material.png","/elasticsearch.png"]

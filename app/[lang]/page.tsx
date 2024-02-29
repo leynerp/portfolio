@@ -11,8 +11,8 @@ async function Page ({ params }: { params: { lang: Locale } }) {
   return (
     <main className=' mt-[66px]  size-full '>
       <Home dictionary={dictionary} lang={params.lang} />
-      <section className='mx-auto w-full pb-[150px] md:max-w-[750px]'>
-        <SocialButtons />
+      <section className='mx-auto mb-[200px] w-full md:max-w-[750px]'>
+        <SocialButtons dictionary={dictionary} />
       </section>
       <div className='space-y-24'>
         <Experience dictionary={dictionary} />

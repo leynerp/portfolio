@@ -2,15 +2,12 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { ProjectsData } from '@/types.d.ts/types'
-import { Lato, Dancing_Script } from 'next/font/google'
+import { Rubik } from 'next/font/google'
 import Image from 'next/image';
-const lato = Lato({
+
+const rubik = Rubik({
   subsets: ['latin'],
-  weight: ['100', '300']
-})
-const DancingS = Dancing_Script({
-  subsets: ['latin'],
-  weight: ['700']
+  weight: ['500']
 })
 export default function ProjectsCard ({ project, dictionary }:{project:ProjectsData, dictionary:any}) {
   const [isFlipped, setIsFlipped] = useState(false);
@@ -48,9 +45,9 @@ export default function ProjectsCard ({ project, dictionary }:{project:ProjectsD
         <div className='flip-card-back group relative size-full rounded-lg bg-cover bg-center p-4 text-white'>
           <div className='absolute inset-0 z-[-1] size-full rounded-lg border border-blue-400 bg-black  shadow' />
           <div className='z-[30] flex flex-col gap-1 py-1'>
-            <h5 className={`${DancingS.className} mb-1 text-xl font-bold tracking-tight text-white opacity-90`}>{title}</h5>
+            <h5 className={`${rubik.className} mb-1 font-bold tracking-tight text-white opacity-90`}>{title}</h5>
 
-            <p className='mb-3 h-[160px]  font-normal text-gray-500 '>{description}</p>
+            <p className='mb-3 h-[170px] text-wrap font-normal text-gray-500 '>{description}</p>
             <section className='flex items-center justify-between gap-x-4'>
               <a href={url} target='_blank' className='inline-flex items-center font-medium text-blue-600 hover:underline'>
                 {dictionary.projects.view}
