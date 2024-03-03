@@ -69,5 +69,12 @@
         }
        
       ]
+    },
+     "skills":{
+      "title": "Habilidades & Tecnologías",
+      "front": "Frontend",
+      "back":"Backend",
+      "others":" Otras "
+
     }  
    }

@@ -10,74 +10,122 @@ export const skillDataFront = [
   {
     name: 'Html 5',
     Image: '/html.png',
-    width: 80,
-    height: 80
+    width: 60,
+    height: 60
   },
   {
     name: 'Css',
     Image: '/css.png',
-    width: 80,
-    height: 80
+    width: 60,
+    height: 60
   },
   {
     name: 'JavaScript',
     Image: '/js.png',
-    width: 65,
-    height: 65
+    width: 45,
+    height: 45
   },
   {
     name: 'Tailwind Css',
     Image: '/tailwind.png',
-    width: 80,
-    height: 80
+    width: 60,
+    height: 60
   },
   {
     name: 'React',
     Image: '/react.png',
-    width: 80,
-    height: 80
+    width: 60,
+    height: 60
   },
   {
     name: 'Redux',
     Image: '/redux.png',
-    width: 80,
-    height: 80
+    width: 60,
+    height: 60
   },
-
+  {
+    name: 'Zustand',
+    Image: '/zustand.png',
+    width: 75,
+    height: 100
+  },
   {
     name: 'TypeScript',
     Image: '/ts.png',
-    width: 80,
-    height: 80
+    width: 60,
+    height: 20
   },
   {
-    name: 'Framer Motion',
-    Image: '/framer.png',
-    width: 80,
-    height: 80
+    name: 'angular',
+    Image: '/angular.png',
+    width: 60,
+    height: 60
+  },
+  {
+    name: 'Material',
+    Image: '/mui.png',
+    width: 60,
+    height: 60
+  },
+  {
+    name: 'Bootstrap',
+    Image: '/bootstrap.png',
+    width: 60,
+    height: 60
   }
 ];
 
 export const skillDataBack = [
   {
-    name: 'Next js 13',
+    name: 'Next js 14',
     Image: '/next.png',
-    width: 80,
-    height: 80
+    width: 60,
+    height: 60
   },
   {
     name: 'Mongo db',
     Image: '/mongodb.png',
-    width: 40,
-    height: 40
+    width: 60,
+    height: 60
+  },
+  {
+    name: 'Postgres',
+    Image: '/postgres.png',
+    width: 60,
+    height: 60
+  },
+  {
+    name: 'MySql',
+    Image: '/mysql.png',
+    width: 60,
+    height: 60
   },
   {
     name: 'Node js',
     Image: '/node-js.png',
-    width: 80,
-    height: 80
+    width: 60,
+    height: 60
+  },
+  {
+    name: 'Spring Boot',
+    Image: '/springboot.png',
+    width: 60,
+    height: 60
+  },
+  {
+    name: 'Nest',
+    Image: '/nestjs.png',
+    width: 60,
+    height: 60
+  },
+  {
+    name: 'Zend',
+    Image: '/zend.png',
+    width: 60,
+    height: 60
   }
 ];
+
 export const Socials = [
   {
     name: 'Discord',
@@ -114,7 +162,7 @@ export const NavLinks = [
   },
   {
     icon: Skill,
-    link: '/skill',
+    link: '/#skill',
     ref: 'skill',
     size: { width: 25, height: 25 }
   },

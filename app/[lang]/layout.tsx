@@ -27,7 +27,7 @@ export default async function RootLayout ({
     <html lang='en' className='scroll-smooth'>
       <body className={`${inter.className} overflow-x-hidden overflow-y-scroll bg-[#030014] antialiased`}>
         <NavBar lang={params.lang} dictionary={dictionary} />
-        <StartsCanvas />
+        {/* <StartsCanvas /> */}
         {children}
       </body>
     </html>

@@ -59,7 +59,7 @@ export const ExperienceIcon = ({ size }:{size:any}) => {
   );
 }
 
-export const ProjectIcon = (size:any) => {
+export const ProjectIcon = ({ size }:{size:any}) => {
   return (
     <svg
       className=' fill-white font-bold'
@@ -125,7 +125,7 @@ export const AboutMe = (size:any) => {
   );
 }
 
-export const Skill = (size:any) => {
+export const Skill = ({ size }:{size:any}) => {
   return (
     <svg
       className=' fill-white '
