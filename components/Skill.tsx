@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import { Skill as SkillIcon } from './SvgComponent';
-import { skillDataFront, skillDataBack } from '@/config';
+import { skillDataFront, skillDataBack, skillDataOthers } from '@/config';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import Image from 'next/image';
@@ -31,6 +31,7 @@ export default function Skill ({ dictionary }:{dictionary:any}) {
                   width={skill.width}
                   height={skill.height}
                   className='rounded-md'
+                  title={skill.name}
                 />
               </SwiperSlide>
             ))}
@@ -56,13 +57,42 @@ export default function Skill ({ dictionary }:{dictionary:any}) {
                   src={skill.Image}
                   alt={skill.name}
                   width={skill.width}
+                  className='rounded-md'
                   height={skill.height}
+                  title={skill.name}
                 />
               </SwiperSlide>
             ))}
           </Swiper>
         </article>
-
+        <article className='flex flex-col items-center gap-y-8'>
+          <span className='text-2xl font-bold  text-orange-300'>{dictionary.skills.others}</span>
+          <Swiper
+            slidesPerView={6}
+            loop
+            autoplay={{
+              delay: 0,
+              disableOnInteraction: false,
+              reverseDirection: true
+            }}
+            speed={5000}
+            modules={[Autoplay]}
+            className='max-w-[100%]'
+          >
+            {skillDataOthers.map((skill, index) => (
+              <SwiperSlide key={index}>
+                <Image
+                  src={skill.Image}
+                  alt={skill.name}
+                  width={skill.width}
+                  className='rounded-md'
+                  height={skill.height}
+                  title={skill.name}
+                />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </article>
       </div>
     </section>
   )

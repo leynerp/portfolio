@@ -56,13 +56,13 @@ export const skillDataFront = [
     height: 20
   },
   {
-    name: 'angular',
+    name: 'Angular',
     Image: '/angular.png',
     width: 60,
     height: 60
   },
   {
-    name: 'Material',
+    name: 'Material UI',
     Image: '/mui.png',
     width: 60,
     height: 60
@@ -101,7 +101,7 @@ export const skillDataBack = [
     height: 60
   },
   {
-    name: 'Node js',
+    name: 'Node.js',
     Image: '/node-js.png',
     width: 60,
     height: 60
@@ -113,7 +113,7 @@ export const skillDataBack = [
     height: 60
   },
   {
-    name: 'Nest',
+    name: 'NestJS',
     Image: '/nestjs.png',
     width: 60,
     height: 60
@@ -123,8 +123,82 @@ export const skillDataBack = [
     Image: '/zend.png',
     width: 60,
     height: 60
+  },
+  {
+    name: 'Apache Kafka',
+    Image: '/kafka.png',
+    width: 60,
+    height: 60
   }
 ];
+export const skillDataOthers = [
+  {
+    name: 'Git',
+    Image: '/git.png',
+    width: 60,
+    height: 60
+  },
+  {
+    name: 'GitHub',
+    Image: '/github.png',
+    width: 60,
+    height: 60
+  },
+  {
+    name: 'Jira',
+    Image: '/jira.png',
+    width: 60,
+    height: 60
+  },
+  {
+    name: 'UML',
+    Image: '/uml.png',
+    width: 60,
+    height: 60
+  },
+  {
+    name: 'Vitest',
+    Image: '/vittest.png',
+    width: 60,
+    height: 60
+  },
+  {
+    name: 'Testing-Library',
+    Image: '/testing-library.png',
+    width: 60,
+    height: 60
+  },
+  {
+    name: 'Junit',
+    Image: '/junit.png',
+    width: 60,
+    height: 60
+  },
+  {
+    name: 'Mockito',
+    Image: '/mockitojpg.png',
+    width: 60,
+    height: 60
+  },
+  {
+    name: 'Docker',
+    Image: '/docker.png',
+    width: 60,
+    height: 60
+  },
+  {
+    name: 'Kubernates',
+    Image: '/kubernates.png',
+    width: 60,
+    height: 60
+  },
+  {
+    name: 'Jenkins',
+    Image: '/jenkins.png',
+    width: 60,
+    height: 60
+  }
+]
 
 export const Socials = [
   {
