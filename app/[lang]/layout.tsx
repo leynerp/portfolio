@@ -6,6 +6,7 @@ import '../globals.css';
 import { type Locale } from '@/i18n/i18n';
 import { getDictionary } from '@/dictionaries/get-diccionary';
 import StartsCanvas from '@/components/StartBackground';
+import Footer from '@/components/Footer';
 // import StartsCanvas from '@/components/StartBackground';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -29,6 +30,7 @@ export default async function RootLayout ({
         <NavBar lang={params.lang} dictionary={dictionary} />
         {/* <StartsCanvas /> */}
         {children}
+        <Footer />
       </body>
     </html>
   );

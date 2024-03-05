@@ -69,6 +69,23 @@
         }
        
       ]
+    },
+     "skills":{
+      "title": "Skill & Technology",
+      "front": "Frontend",
+      "back":"Backend",
+      "others":" Others "
+
+    },   
+   "aboutme":{
+      "title": "About me",
+      "p1": "My name is Leyner but my acquaintances call me Patterson because is my last name. My first lines of code were in Visual Basic when I was 14 years old. In this moment ",
+      "p1Strong": " I lead development teams and implement complexity functionalities in the projects. ",
+      "p2":"Among my most important achievements is having participated in the ",
+      "p2Strong":" modeling and architectural design of the Liquefied Petroleum Gas Distribution and Control System with the PDVSA company in Venezuela.",
+      "p3":"I have extensive experience in web development, acquired in solving technical problems throughout my career. Something that characterizes me and fills me with satisfaction is",
+      "p3Strong":" having contributed to the training of ICT professionals at the University of Computer Sciences (UCI) through thesis tutoring."
+      
+
     }  
-   
   }

@@ -18,7 +18,11 @@ export default function Skill ({ dictionary }:{dictionary:any}) {
           <Swiper
             slidesPerView={8}
             loop
-            autoplay={{ delay: 0, disableOnInteraction: false }}
+            autoplay={{
+              delay: 0,
+              disableOnInteraction: false,
+              reverseDirection: true
+            }}
             speed={4000}
             modules={[Autoplay]}
             className='max-w-[100%] '

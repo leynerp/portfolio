@@ -147,13 +147,13 @@ export const skillDataOthers = [
   {
     name: 'Jira',
     Image: '/jira.png',
-    width: 60,
+    width: 80,
     height: 60
   },
   {
     name: 'UML',
     Image: '/uml.png',
-    width: 60,
+    width: 70,
     height: 60
   },
   {
@@ -177,7 +177,7 @@ export const skillDataOthers = [
   {
     name: 'Mockito',
     Image: '/mockitojpg.png',
-    width: 60,
+    width: 70,
     height: 60
   },
   {
@@ -189,13 +189,13 @@ export const skillDataOthers = [
   {
     name: 'Kubernates',
     Image: '/kubernates.png',
-    width: 60,
-    height: 60
+    width: 80,
+    height: 80
   },
   {
     name: 'Jenkins',
     Image: '/jenkins.png',
-    width: 60,
+    width: 80,
     height: 60
   }
 ]
@@ -242,7 +242,7 @@ export const NavLinks = [
   },
   {
     icon: AboutMe,
-    link: '/about-me',
+    link: '/#about-me',
     ref: 'about-me',
     size: { width: 20, height: 20 }
   }

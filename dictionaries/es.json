@@ -76,5 +76,16 @@
       "back":"Backend",
       "others":" Otras "
 
-    }  
+    },
+     "aboutme":{
+      "title": "Sobre mí",
+      "p1": "Mi nombre es Leyner pero mis conocidos me llaman Patterson por mi apellido. Mis primeras lineas de código fueron en Visual Basic con 14 años de edad. Actualmente ",
+      "p1Strong": " dirijo equipos de desarrollo e implemento funcionalidades con algún tipo de complejidad. ",
+      "p2":"Entre mis logros más importantes figura haber participado en la   ",
+      "p2Strong":" modelación y diseño arquitectónico del Sistema de Distribución y Control de Gas Licuado de Petroleo con la compañía PDVSA en Venezuela.",
+      "p3":"Cuento con una basta experiencia en el desarrollo web, adquirida en la resolución de problemas técnicos durante toda mi carrera. Algo que me caracteriza y me llena de satisfacción es",
+      "p3Strong":" haber contribuido en la formación de profesionales TIC en la Universidad de Ciencias Informáticas (UCI) mediante tutorías de tesis."
+     
+
+    }    
    }

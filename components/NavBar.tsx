@@ -3,7 +3,6 @@ import LanguageSwitcher from './LanguageSwitcher';
 import { NavLinks } from '@/config';
 import { type Locale } from '@/i18n/i18n';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
 import React, { useEffect, useState } from 'react';
 
 export default function NavBar ({ lang, dictionary }:{lang: Locale, dictionary:any}) {
@@ -45,9 +44,7 @@ export default function NavBar ({ lang, dictionary }:{lang: Locale, dictionary:a
       observer.observe(section)
     })
   }
-  const handlerClick = (value: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
-    console.log(value.target)
-  }
+
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
     initIntersection();
@@ -56,8 +53,6 @@ export default function NavBar ({ lang, dictionary }:{lang: Locale, dictionary:a
     };
   }, []);
 
-  const pathname = usePathname();
-
   return (
     <header className='fixed top-0 z-50  flex h-[65px] w-full   items-center justify-between  bg-[#03001417] py-1 shadow-lg shadow-[#2A0E61]/50 sm:flex '>
       <p className='ml-2 hidden w-full  font-mono text-[25px] text-white   sm:block'>{'<Leyner />'} </p>
@@ -65,7 +60,7 @@ export default function NavBar ({ lang, dictionary }:{lang: Locale, dictionary:a
         <div className='flex justify-between  px-4 py-3 font-mono text-white '>
           {NavLinks.map((linkValue, item) => (
             <div key={linkValue.link} className='flex  hover:scale-110 hover:underline'>
-              <Link onClick={handlerClick} aria-label={linkValue.ref} className='flex cursor-pointer gap-x-2 transition ' href={linkValue.link}>
+              <Link aria-label={linkValue.ref} className='flex cursor-pointer gap-x-2 transition ' href={linkValue.link}>
                 <linkValue.icon size={{ width: linkValue.size.width, height: linkValue.size.height }} />
                 <p className='hidden font-bold lg:block'>{dictionary.navigation[linkValue.ref]}</p>
               </Link>

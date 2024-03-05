@@ -88,7 +88,7 @@ export const ProjectIcon = ({ size }:{size:any}) => {
   );
 }
 
-export const AboutMe = (size:any) => {
+export const AboutMe = ({ size }:{size:any}) => {
   return (
     <svg
       className=' fill-white font-bold'

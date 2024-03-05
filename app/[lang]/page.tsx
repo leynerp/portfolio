@@ -5,6 +5,7 @@ import Projects from '@/components/Projects';
 import { getDictionary } from '@/dictionaries/get-diccionary';
 import { Locale } from '@/i18n/i18n';
 import Skill from '@/components/Skill';
+import AboutmeCmp from '@/components/AboutmeCmp';
 
 async function Page ({ params }: { params: { lang: Locale } }) {
   const dictionary = await getDictionary(params.lang);
@@ -19,6 +20,7 @@ async function Page ({ params }: { params: { lang: Locale } }) {
         <Experience dictionary={dictionary} />
         <Projects dictionary={dictionary} />
         <Skill dictionary={dictionary} />
+        <AboutmeCmp dictionary={dictionary} />
       </div>
     </main>
   );
