@@ -1,6 +1,7 @@
 'use client'
-import { languageEnabled, Language } from '@/config';
+import { languageEnabled } from '@/config';
 import Image from 'next/image';
+import { Language } from '@/types.d.ts/types'
 import { ChangeEvent, useState } from 'react';
 import { useRouter } from 'next/navigation'
 import { Locale } from '@/i18n/i18n';
