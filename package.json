@@ -9,8 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@formatjs/intl-localematcher": "^0.5.4",
-    "@next/swc-win32-x64-msvc": "^14.0.4",
+    "@formatjs/intl-localematcher": "^0.5.4",   
     "negotiator": "^0.6.3",
     "next": "14.0.4",
     "react": "^18",
