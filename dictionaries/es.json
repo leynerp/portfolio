@@ -44,10 +44,17 @@
       "data":[
         {
           "title":"Reporte de Operaciones Sospechosas (ROS)",
-          "description":"Sistema para el reporte de los ROS, utilizado por el Banco Central de Cuba. Desarrollado desde cero con Vuejs y Laravel.",
+          "description":"Sistema para el reporte de los ROS, utilizado por el Banco Central de Cuba. Desarrollado desde cero con React y Laravel.",
           "image": "/Ros.png",
           "url":"",
-          "technology":["/vue.png","/laravel.png"]
+          "technology":["/react.png","/laravel.png"]
+        },
+        {
+          "title":" Sistema de Información al Visitante",
+          "description":"Plataforma para la búsqueda de información sobre el destino Cuba, con mas de un millón de lugares, hoteles, restaurantes, etc. Poderosa herramienta para el uso de las oficinas de información",
+          "image": "/Infotur.png",
+          "url":"https://www.infoturcuba.cu/",
+          "technology":["/react.png","/material.png","/elasticsearch.png"]
         },{
           "title":"Sistema de Gestión de la Urgencia Médica",
           "description":"Plataforma en operación en ciudad de La Habana, procesando diariamente mas de 1000 solicitudes de Emergencias. Control del parque de Ambulancias, Agentes, Expedición",
@@ -60,12 +67,6 @@
           "image": "/Enzona.png",
           "url":"https://transparencia.enzona.net/",
           "technology":["/bootstrap.png","/procesmaker.png","/springboot.png"]
-        },{
-          "title":" Sistema de Información al Visitante",
-          "description":"Plataforma para la búsqueda de información sobre el destino Cuba, con mas de un millón de lugares, hoteles, restaurantes, etc. Poderosa herramienta para el uso de las oficinas de información",
-          "image": "/Infotur.png",
-          "url":"https://www.infoturcuba.cu/",
-          "technology":["/react.png","/material.png","/elasticsearch.png"]
         }
        
       ]

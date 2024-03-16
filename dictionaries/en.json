@@ -47,7 +47,14 @@
           "description":"System for reporting suspicious activity in bank transactions, used by the Central Bank of Cuba. Developed from scratch with Vuejs and Laravel.",
           "image": "/Ros.png",
           "url":"",
-          "technology":["/vue.png","/laravel.png"]
+          "technology":["/react.png","/laravel.png"]
+        },
+        {
+          "title":" Visitor Information System",
+          "description":"Platform for searching information about the Cuba destination, with more than a million places, hotels, restaurants, etc. Powerful tool for the use of information offices.",
+          "image": "/Infotur.png",
+          "url":"https://www.infoturcuba.cu/",
+          "technology":["/react.png","/material.png","/elasticsearch.png"]
         },{
           "title":"Medical Emergency Management System",
           "description":"Platform in operation in Havana city, processing more than thousand Emergency requests daily. Control of the Ambulance park, Agents, Expedition.",
@@ -60,14 +67,7 @@
           "image": "/Enzona.png",
           "url":"https://transparencia.enzona.net/",
           "technology":["/bootstrap.png","/procesmaker.png","/springboot.png"]
-        },{
-          "title":" Visitor Information System",
-          "description":"Platform for searching information about the Cuba destination, with more than a million places, hotels, restaurants, etc. Powerful tool for the use of information offices.",
-          "image": "/Infotur.png",
-          "url":"https://www.infoturcuba.cu/",
-          "technology":["/react.png","/material.png","/elasticsearch.png"]
-        }
-       
+        }       
       ]
     },
      "skills":{
