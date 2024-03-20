@@ -27,7 +27,7 @@
           "role":" Arquitecto principal ",
           "description":"Responsable de la línea base de la arquitectura de los proyectos del centro. Seleccionar las tecnologías y lenguajes de programación mas adecuados en base a los requerimientos. Solucionar los problemas técnicos más complejos presentados durante el desarrollo. Velar por las buenas prácticas , optimización y rendimiento. ",
           "company": "XETID",
-          "time":"Enero 2018 "
+          "time":"Enero 2020 "
         },
         {
           "role":" Desarrollador Full Stack ",
@@ -47,14 +47,14 @@
           "description":"Sistema para el reporte de los ROS, utilizado por el Banco Central de Cuba. Desarrollado desde cero con React y Laravel.",
           "image": "/Ros.png",
           "url":"",
-          "technology":["/react.png","/laravel.png"]
+          "technology":["/react.png","/springboot.png"]
         },
         {
           "title":" Sistema de Información al Visitante",
           "description":"Plataforma para la búsqueda de información sobre el destino Cuba, con mas de un millón de lugares, hoteles, restaurantes, etc. Poderosa herramienta para el uso de las oficinas de información",
           "image": "/Infotur.png",
           "url":"https://www.infoturcuba.cu/",
-          "technology":["/react.png","/material.png","/elasticsearch.png"]
+          "technology":["/react.png","/material.png","/elasticsearch.png","/springboot.png"]
         },{
           "title":"Sistema de Gestión de la Urgencia Médica",
           "description":"Plataforma en operación en ciudad de La Habana, procesando diariamente mas de 1000 solicitudes de Emergencias. Control del parque de Ambulancias, Agentes, Expedición",
@@ -66,7 +66,7 @@
           "description":"Procesamiento y análisis de las reclamaciones efectuadas por los clientes sobre las operaciones en la plataforma ENZONA. Más de 10000 reclamaciones atendidas. ",
           "image": "/Enzona.png",
           "url":"https://transparencia.enzona.net/",
-          "technology":["/bootstrap.png","/procesmaker.png","/springboot.png"]
+          "technology":["/react.png","/node-js.png","/springboot.png"]
         }
        
       ]
