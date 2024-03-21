@@ -17,17 +17,17 @@
     "experience":{
       "name":"Experience",
       "data":[
+         {
+          "role":" Technical Lead ",
+          "description":" Responsible for the development of different projects with a work team of more than 20 people.The cohesion of the team was achieved focused on meeting the proposed objectives, increasing the productivity and quality of the developed systems and with it the satisfaction of our clients.. ",
+          "company": "XETID",
+          "time":"at present..."
+        },
         {
           "role":" Principal architect ",
           "description":"Responsible for the architectural baseline of the center's projects. Select the most appropriate technologies and programming languages ​​based on the requirements. Solve the most complex technical problems presented during development. Ensure good practices, optimization and performance. ",
           "company": "XETID",
-          "time":"at present... "
-        },
-        {
-          "role":" Technical Lead ",
-          "description":" Responsible for the development of different projects with a work team of more than 20 people.The cohesion of the team was achieved focused on meeting the proposed objectives, increasing the productivity and quality of the developed systems and with it the satisfaction of our clients.. ",
-          "company": "XETID",
-          "time":"January 2018"
+          "time":"January 2020 "
         },
         {
           "role":" Full Stack Developer ",
@@ -44,7 +44,7 @@
       "data":[
         {
           "title":"Suspicious Activity Report",
-          "description":"System for reporting suspicious activity in bank transactions, used by the Central Bank of Cuba. Developed from scratch with Vuejs and Laravel.",
+          "description":"System for reporting suspicious activity in bank transactions, used by the Central Bank of Cuba. Developed from scratch with React and SpringBoot.",
           "image": "/Ros.png",
           "url":"",
           "technology":["/react.png","/springboot.png"]

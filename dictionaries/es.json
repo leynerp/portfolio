@@ -44,7 +44,7 @@
       "data":[
         {
           "title":"Reporte de Operaciones Sospechosas (ROS)",
-          "description":"Sistema para el reporte de los ROS, utilizado por el Banco Central de Cuba. Desarrollado desde cero con React y Laravel.",
+          "description":"Sistema para el reporte de los ROS, utilizado por el Banco Central de Cuba. Desarrollado desde cero con React y Spring Boot.",
           "image": "/Ros.png",
           "url":"",
           "technology":["/react.png","/springboot.png"]
